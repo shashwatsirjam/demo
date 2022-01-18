@@ -397,6 +397,10 @@ h10{
     .start_line{
         height: 50px ;
     }
+    .mid{
+        height: 200vh;
+    }
+    
 
 
 }
