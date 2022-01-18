@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- header section starts      -->
+
+<header>
+
+    <a href="#" class="logo"><img src="./images/logo.png" alt=""></a>
+
+    <nav class="navbar">
+        <a href="#About">About Us</a>
+        <a href="../product/product.html">Products</a>
+        <a href="#Blogs">Blogs</a>
+        <a href="#Partners">For Partners</a>
+        <a href="#FAQ">FAQ</a>
+        <a href="#Contact">Contact</a>
+        <a class="active" href="#Demos">Demos & Videos</a>
+
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <a href="#" class="fas fa-shopping-cart"></a>
+    </div>
+
+</header>
+<div class="h">
+<section class="hide">
+    <div class="data">
+
+        <br><br><br><br><br><br><br><br>
+        
+        <label class="custom-radio" for="yellow">
+            <input type="radio" id="yellow" class="chb" onclick="main();" name="fav_colour" value="yellow" />
+            <span class="radio-btn">
+            <div class="hobbies-icon">
+            <img src="./images/light.png">
+            <h10>Yellow</h10>
+            
+            </div>
+            </span>
+          </label>
+        <label class="custom-radio" for="Blue">
+            <input type="radio" id="Blue" class="chb" onclick="main();" name="fav_colour" value="Blue"/>
+            <span class="radio-btn">
+            <div class="hobbies-icon">
+            <img src="./images/blue.png"><br>
+            <h10>blue</h10>
+            </div>
+            </span>
+          </label>
+          <br>
+        <label class="custom-radio" for="Red">
+            <input type="radio" id="Red" class="chb" onclick="main();" name="fav_colour" value="Red"/>
+            <span class="radio-btn">
+            <div class="hobbies-icon">
+            <img src="./images/red.png"><br>
+            <h10>red</h10>
+            </div>
+            </span>
+          </label>
+        <br>
+        <h10>change light colour</h10>
+        <br>
+        
+        <label class="custom-radio">
+            <input type="checkbox" id="tv_off" class="chb" onclick="main();" name="fav_mode" value="off">
+            <span class="radio-btn">
+            <div class="hobbies-icon">
+            <img src="./images/smart-tv.png">
+            <br>
+            </div>
+            </span>
+          </label>
+          <br>
+          <h10>off & on</h10>
+    </div>
+</section>
+
+<section class="home">
+        <canvas id="c">
+            
+        </canvas>
+</section>
+
+</div>
+<div class="phone_icon">
+    <img class="phone_icon" src="./images/smartphone.png" onclick="hope()">
+</div>
+
+
+<section class="mid">
+    <h1 class="heading">Products demo</h1>
+    
+
+    <div class="start_line"></div>
+    <div class="time">6:30
+        Wake Up</div>
+    <div class="end_line"></div>
+    <div class="container">
+
+    <div class="div_left">
+        <video  class="vedio-slide active" src="./vedio/1.mp4" autoplay muted loop></video>
+    </div>
+    <div class="div_right">
+        <h4>HAPPY MORNING</h4>
+        <br>
+        You wake up with the sun rise.Home is a letting gentle light into your bedroom.
+    </div>
+
+    </div>
+    
+    
+
+
+    <div class="start_line"></div>
+    <div class="time">7:00
+        Making Breakfast</div>
+    <div class="end_line"></div>
+    <div class="container">
+
+        <div class="div_left">
+            <video  class="vedio-slide active" src="./vedio/2.MP4" autoplay muted loop></video>
+        </div>
+        <div class="div_right">
+            <h4>VOICE CONTROL</h4>
+            <br>
+            You wake up with the sun rise.Home is a letting gentle light into your bedroom.
+        </div>
+    
+        </div>
+
+
+
+
+    <div class="start_line"></div>
+    <div class="time">8:00
+        Leaving the house</div>
+    <div class="end_line"></div>
+    <div class="container">
+
+        <div class="div_left">
+            <video  class="vedio-slide active" src="./vedio/3.MP4" autoplay muted loop></video>
+        </div>
+        <div class="div_right">
+            <h4>SAFETY</h4>
+            <br>
+            You wake up with the sun rise.Home is a letting gentle light into your bedroom.
+        </div>
+    
+        </div>
+
+
+
+
+    <div class="start_line"></div>
+    <div class="time">12:30
+        Away from home</div>
+    <div class="end_line"></div>
+    <div class="container">
+
+        <div class="div_left">
+            <video  class="vedio-slide active" src="./vedio/4.MP4" autoplay muted loop></video>
+        </div>
+        <div class="div_right">
+            <h4>SECURITY</h4>
+            <br>
+            Before leaving you secure your house with smart lock & smart sensors.
+        </div>
+    
+        </div>
+
+
+
+
+    <div class="start_line"></div>
+    <div class="time">16:30
+        Coming back home</div>
+    <div class="end_line"></div>
+    <div class="container">
+
+        <div class="div_left">
+            <video  class="vedio-slide active" src="./vedio/5.MP4" autoplay muted loop></video>
+        </div>
+        <div class="div_right">
+            <h4>HVAC</h4>
+            <br>
+            Temperature in the house is perfect on your arrival.
+        </div>
+    
+        </div>
+
+
+
+
+    <div class="start_line"></div>
+    <div class="time">18:50
+        Home theater</div>
+    <div class="end_line"></div>
+    <div class="container">
+
+        <div class="div_left">
+            <video  class="vedio-slide active" src="./vedio/6.MP4" autoplay muted loop></video>
+        </div>
+        <div class="div_right">
+            <h4>HOME APPLIANCES</h4>
+            <br>
+            You start the family movie night with one voice command.
+        </div>
+    
+        </div>
+
+
+
+
+    <div class="start_line"></div>
+    <div class="time">20:00
+        Evening ritual</div>
+    <div class="end_line"></div>
+    <div class="container">
+
+        <div class="div_left">
+            <video  class="vedio-slide active" src="./vedio/7.MP4" autoplay muted loop></video>
+        </div>
+        <div class="div_right">
+            <h4>MOOD</h4>
+            <br>
+            You prepare kids for good nights. Perfect mood is already on.
+        </div>
+    
+        </div>
+
+
+
+
+    <div class="start_line"></div>
+    <div class="time">22:30
+        Goodnight scene</div>
+    <div class="end_line"></div>
+    <div class="container">
+
+        <div class="div_left">
+            <video  class="vedio-slide active" src="./vedio/9.MP4" autoplay muted loop></video>
+        </div>
+        <div class="div_right">
+            <h4>LIGHTING</h4>
+            <br>
+            Prepare the entire house for the night with one press of a button without leaving the bed.
+        </div>
+    
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section class="footer">
+
+            <div class="box-container">
+        
+                <div class="box">
+                    <a href="#" class="logo"><img src="./images/logo.png" alt=""></a>
+                    <span>We create smart home solutions to bring ease to your life. Easy control and home safety from anywhere across the globe, adding more convenience to your daily life!.</span>
+                </div>
+        
+                <div class="box box2">
+                    <h3>quick links</h3>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Products</a>
+                    <a href="#">Partners</a>
+                    <a href="#">Blogs</a>
+                </div>
+        
+                <div class="box">
+                    <h3>contact info</h3>
+                    
+                    <a href="#">+919773688229</a>
+                    <a href="#">01204523544</a>
+                    <a href="#">contact@dyfolabs.com</a>
+                    <a href="#">D-99,
+                        Sector 36, Noida,<br>
+                        Uttar Pradesh 201301</a>
+                </div>
+        
+              
+        
+            </div>
+        
+            <div class="credit"> © 2022<span> Dyfo Automation Pvt. Ltd.</span> All Rights Reserved.</div>
+        
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://threejs.org/examples/js/controls/OrbitControls.js"></script>
+<Script src="script.js"></Script>
+<script>
+   function hope(){
+   const hidden = document.querySelector('.hide'); 
+   hidden.classList.toggle('reveal-items');
+   };
+</script>
+</body>
+</html>
